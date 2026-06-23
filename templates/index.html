@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LegalLens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<body class="bg-light">
+
+<div class="container py-5">
+
+        <div class="card shadow-lg border-0 p-5">
+
+        <h1 class="text-center display-3 fw-bold">
+    ⚖️ LegalLens
+</h1>
+        <h3 class="text-center text-secondary mb-4 fw-semibold">
+    AI Powered Indian Legal Awareness Assistant
+</h3>
+
+        <p class="text-center text-muted">
+            Learn about Indian laws, FIR, RTI, Consumer Rights, Cyber Crime and more.
+        </p>
+
+        <div id="chat-box" class="border rounded p-3 mb-3 bg-white">
+        
+
+        <div class="d-flex justify-content-center gap-3 mb-4 flex-wrap">
+
+    <button class="btn btn-outline-primary btn-lg"
+        onclick="fillQuestion('What is an FIR?')">
+        FIR
+    </button>
+
+    <button class="btn btn-outline-success btn-lg"
+        onclick="fillQuestion('What is RTI?')">
+        RTI
+    </button>
+
+    <button class="btn btn-outline-warning btn-lg"
+        onclick="fillQuestion('What are consumer rights?')">
+        Consumer Rights
+    </button>
+
+    <button class="btn btn-outline-danger btn-lg"
+        onclick="fillQuestion('What is cyber crime?')">
+        Cyber Crime
+    </button>
+
+
+</div>
+            <div class="input-group input-group-lg mb-4">
+
+    <input
+        type="text"
+        id="user-input"
+        class="form-control"
+        placeholder="Ask a legal question..."
+    >
+
+    <button
+        class="btn btn-primary px-5"
+        onclick="sendMessage()">
+        Send
+    </button>
+
+</div>
+        <div class="card mt-3">
+            <div class="card-header">
+                Example Questions
+            </div>
+
+            <div class="card-body">
+                <ul>
+                    <li>What is an FIR?</li>
+                    <li>How can I file RTI?</li>
+                    <li>What are consumer rights?</li>
+                    <li>How do I report cyber fraud?</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="text-center mt-4 text-muted">
+            Built by Priyadarshini | GENAI Internship
+        </footer>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
