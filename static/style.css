@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(135deg, #e0f2fe, #f8fafc);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+}
+
+/* Title */
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+/* Subtitle */
+h5 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Description text */
+p {
+    font-size: 1.4rem;
+}
+
+/* Chat box */
+#chat-box {
+    height:650px;
+    overflow-y:auto;
+    font-size:28px;
+}
+
+/* Input box */
+#user-input {
+    height:75px;
+    font-size:28px;
+}
+
+/* Buttons */
+.btn {
+    font-size: 22px !important;
+    font-weight: 600;
+}
+
+/* Quick action buttons */
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-danger {
+    padding: 12px 25px;
+}
+
+/* Send button */
+.btn-primary {
+    min-width: 140px;
+}
+
+/* Example questions heading */
+.card-header {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Example question list */
+.card-body li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* User message */
+.user {
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    border-radius:15px;
+    margin:15px 0;
+    max-width:90%;
+    margin-left:auto;
+
+    font-size:28px;
+    font-weight:500;
+}
+
+/* Bot message */
+.bot {
+    .bot{
+    background:white;
+    border-left:6px solid #2563eb;
+    padding:18px;
+    border-radius:15px;
+    margin:15px 0;
+
+    font-size:28px;
+    line-height:1.9;
+
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+}
+
+/* Footer */
+footer {
+    font-size:22px;
+    font-weight:500;
+}
+.card-header{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-body li{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
